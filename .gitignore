@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Raw / private / large input data
+data/input/*
+!data/input/.gitkeep
+
+# Common raw data formats used in this project
+*.sd
+*.dep
+*.tif
+*.tiff
+
+# Generated CSV outputs
+classified_echo_clusters.csv
+classified_echo_clusters_with_gps.csv
+dbscan_silhouette_search_results.csv
+bathymetry_depth_comparison.csv
+bathymetry_depth_comparison_filtered.csv
+
+# Generated HTML maps
+*.html
+
+# Generated figures
+results/figures/*
+!results/figures/.gitkeep
+
+# Generated maps
+results/maps/*
+!results/maps/.gitkeep
+
+# Generated tables
+results/tables/*
+!results/tables/.gitkeep

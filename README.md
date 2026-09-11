@@ -1,4 +1,4 @@
-# Unsupervised Lakebed Classification from Echo-Sounder Waveforms
+# Exhibited at University of Toronto Undergraduate Engineering Research Day 2026
 
 Python workflow for extracting acoustic-envelope features, clustering single-beam echo-sounder responses, comparing clustering methods, attaching navigation coordinates, visualizing spatial classes, and checking surveyed bathymetry against a reference surface.
 
